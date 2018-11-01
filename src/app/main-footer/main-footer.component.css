@@ -1,0 +1,6 @@
+  .main-footer {
+    /* background-color: #b83a3a; */
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    height: 100%
+  }
