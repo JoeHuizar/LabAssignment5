@@ -3,7 +3,7 @@
     border: 1px solid #ccc
   }
 
-  .table-one > tbody > tr > td {
+  .table-one > tbody > tr > td,  .table-one > thead > tr > td {
     border: 1px solid #ccc;
     min-height: 50px;
     padding: .5em;
