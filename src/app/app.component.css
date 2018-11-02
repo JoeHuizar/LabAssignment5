@@ -1,6 +1,6 @@
   .app-container-grid {
     display: grid;
-    grid-template-rows: 5fr 5fr 5fr;
+    grid-template-rows: 1fr 9fr 1fr;
     height: 100vh;
   }
 

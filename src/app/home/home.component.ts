@@ -12,7 +12,7 @@ interface IDecisionProps {
 })
 export class HomeComponent implements OnInit {
 
-  conditions: Array<IDecisionProps> [];
+  conditions: Array<IDecisionProps> = [];
   constructor() { }
 
   ngOnInit() {
@@ -24,10 +24,12 @@ export class HomeComponent implements OnInit {
       {
         condX: false,
         condY: true
-      },{
+      },
+      {
         condX: true,
         condY: false
-      },{
+      },
+      {
         condX: true,
         condY: true
       },
